@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prod-mongo-configmap
+  namespace: prod-mongo
+data:
+  MONGO_URI: mongodb-service
